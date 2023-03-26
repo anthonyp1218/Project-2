@@ -1,0 +1,48 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(10, 85, 10);
+    padding: 18px;
+    justify-content: center;
+    font-family:'Oswald', sans-serif;;
+}
+
+section {
+    margin-right: 10pt;
+}
+section:last-child {
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h2 {
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+    font-size: 12pt;
+    letter-spacing: 3px;
+}
+
+.sales {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 10pt;
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+a:hover {
+    border-bottom: 1px solid white;
+    margin-bottom: 3px;
+}
